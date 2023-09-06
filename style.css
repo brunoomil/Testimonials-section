@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed';
+    font-size: 13px;
+}
+
+.posts {
+    display: flex;
+    width: 72.5%;
+    gap: 10px;
+}
+
+.main_content_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.first_line {
+    display: flex;
+    gap: 10px;
+}
+
+.second_line {
+    display: flex;
+    gap: 10px;
+}
+
+.post {
+    border-radius: 7.5px;
+    padding: 30px;
+}
+
+.post_1{ 
+    background-color: hsl(263, 55%, 52%);
+    position: relative;
+}
+
+.post_2 {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.post_3 {
+    background-color: rgb(35, 143, 49);
+}
+
+.post_4 {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.post_5 {
+    width: 17.5%;
+    background-color: rgb(35, 143, 49);
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.profile_info {
+    padding-left: 10px;
+}
+
+.profile img {
+    border-radius: 50%;
+    max-height: 22px;
+    max-width: 30px;
+    height: auto;
+    width: auto;
+}
+
+.post_1 > img {
+    max-width: 90px;
+    position: absolute;
+    top: 0;
+    right: 70px;
+    opacity: 0.8;
+}
+
+.name {
+    color: hsl(210, 46%, 95%);
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.name_white {
+    color: hsl(219, 29%, 14%);
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.profile_type {
+    color: hsl(0, 0%, 81%);
+    font-size: 0.75em;
+    font-weight: 500;
+    margin-top: 2.5px;
+}
+
+.content_preview {
+    color: hsl(210, 46%, 95%);
+    font-size: 1.3em;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+
+.content_preview_white {
+    color: hsl(219, 29%, 14%);
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.text {
+    color: hsl(0, 0%, 81%);
+    font-size: 0.82em;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    bottom: 5px;
+    position: absolute;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
